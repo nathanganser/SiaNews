@@ -2,4 +2,4 @@ flask
 siaskynet
 flask_sqlalchemy
 datetime
-webbrowser
+psycopg2-binary

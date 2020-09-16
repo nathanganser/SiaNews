@@ -7,6 +7,18 @@
 <body>
 <h1>Sia News 🔥 News that can't be taken down</h1>
 <a href="/upload"><button>Upload</button></a>
+    <div>
+        {% for upload in uploads %}
+        <div>
+                
+            <a href="https://siasky.net/{{ upload.skylink }}" target="_blank">
+                <h2>{{ upload.title }}</h2>
+            </a>
+            
+            <p>{{ upload.timestamp }}</p>
+        </div>
+        {% endfor %}
+    </div>
 
 </body>
 </html>
